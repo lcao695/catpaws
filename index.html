@@ -2,14 +2,70 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Welcome</title>
+    <title>LCAO Portfolio</title>
+
+    <link href="styles/site.css" type="text/css" rel="stylesheet">
+
 </head>
 
 <body>
-  Hallo welcome
+    <header>
+        <div class="hiddenburger">
+            <button id="burger"><img class="buttonhere" src="images/swuare-01.png" alt="just burger symbol"></button>
+            <h1>
+                WELCOME!
+            </h1>
+        </div>
+
+        <nav>
+            <menu id="navbar">
+                <li class="fancy"><a href="index.html">HOME</a></li>
+                <li class="fancy"><a href="about.html">ABOUT</a></li>
+                <li class="fancy"><a href="work.html">WORK</a></li>
+                <li class="fancy"><a href="play.html">PLAY</a></li>
+            </menu>
+            <menu id="hamburger" class="hidden">
+                <li class="fancy"><a href="index.html">HOME</a></li>
+                <li class="fancy"><a href="about.html">ABOUT</a></li>
+                <li class="fancy"><a href="work.html">WORK</a></li>
+                <li class="fancy"><a href="play.html">PLAY</a></li>
+            </menu>
+        </nav>
+
+
+    </header>
+
+
+    <p>
+        My name is Lilian and I'm currently studying <em>Design & Environmental Analysis</em> at Cornell University.
+
+    </p>
+
+    <h2>
+        Personal information:
+    </h2>
+    <div class="pkggroups">
+        <p>
+            I was born and raised in the San Francisco Bay Area, but I'm currently enjoying Ithaca's beautiful seasons. Some of many things I spend my time doing are baking, gaming, making coffee, and trying new things.
+
+            As a designer, my goal is to blend playfulness and imagination with utility and function. I am interested in the fields of digital product design, ergonomics and furniture design, urban design, and spatial design/interior architecture.
+        </p>
+
+        <div class="photopkg">
+            <figure>
+                <img class="special" src="images/drinktea.jpeg" alt="A picture of me drinking tea!">
+                <figcaption> This is me in Japan, enjoying some matcha! <strong>Source: <cite>Lilian Cao</cite></strong></figcaption>
+            </figure>
+        </div>
+    </div>
+
 </body>
+
+
+<script src="scripts/jquery-3.7.1.js"></script>
+<script src="scripts/hamburglarmenu.js"></script>
 
 </html>
